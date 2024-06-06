@@ -65,9 +65,9 @@ export const TargetaMonumentos = ({
             </p>
           </article>
 
-          <div className="m-auto truncate cursor-pointer border-2 border-blue-900 bg-blue-300 text-center p-2 rounded-3xl  font-bold hover:bg-blue-500 transition duration-75   hover:shadow-xl  hover:shadow-blue-700 hover:-translate-y-1 mb-4">
+          <div className="m-auto  w-2/4 truncate cursor-pointer border-2 border-blue-900 bg-blue-300 text-center p-2 rounded-3xl  font-bold hover:bg-blue-500 transition duration-75   hover:shadow-xl  hover:shadow-blue-700 hover:-translate-y-1 mb-4">
             <BrowserRouter>
-              <Link className="truncate" to={ruta}>
+              <Link className="truncate" target="_blank" to={ruta}>
                 Mas Sobre {titulo}!!
               </Link>
               <Routes>
